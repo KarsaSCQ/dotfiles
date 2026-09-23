@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Install zsh package(来自分支b的修改)
+# 安装 zsh (install zsh package)
 sudo apt update && sudo apt install -y zsh git curl
 
 # 装oh-my-zsh
