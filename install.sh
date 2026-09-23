@@ -5,6 +5,7 @@ set -e
 sudo apt update && sudo apt install -y zsh git curl
 
 # 装oh-my-zsh
+export CHSH=no
 export RUNZSH=no
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # 装第三方插件和主题
